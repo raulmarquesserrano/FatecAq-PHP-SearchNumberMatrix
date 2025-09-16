@@ -103,7 +103,7 @@
                 for($l = 0; $l < $linha; $l++) {
                     for($c = 0; $c < $coluna; $c++) {
                         if($matriz[$l][$c] == $numero[$i] && !$ne[$i]){
-                            echo '<li>valor '. $numero[$i]. ' encontrado na '. $l+1 .'º linha e '. $c+1 .'º coluna</li>';
+                            echo '<li>Valor '. $numero[$i]. ' encontrado na '. $l+1 .'º linha e '. $c+1 .'º coluna</li>';
                             $ne[$i] = true;
                         }
                     }
