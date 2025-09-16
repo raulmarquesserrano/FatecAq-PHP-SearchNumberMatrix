@@ -109,7 +109,7 @@
                     }
                 }
                 if(!$ne[$i]) {
-                    echo '<li>valor '. $numero[$i]. ' não encontrado';
+                    echo '<li>Valor '. $numero[$i]. ' não encontrado';
                 }
             }
             echo '</ul> <hr>';
